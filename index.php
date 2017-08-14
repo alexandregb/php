@@ -106,6 +106,21 @@
           }  
           
           
+                  $x = true;
+          if (!$x)  {
+          echo "Verdadeiro". "<br>";
+         
+     }
+          else  {
+          
+            echo "Falso". "<br>";
+          
+          }  
+            
+            
+                $x = 5;
+          if (true || $x++ ==10)  {
+          echo "Verdadeiro". "<br>";
          
      }
           else  {
