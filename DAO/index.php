@@ -4,13 +4,11 @@
 		require_once("config.php");
 
 
-	$sql = new Sql();
-$usuarios = $sql->select("SELECT * FROM tb_usuarios");
-
-
-
-	echo json_encode($usuarios);
-
-
+require_once('config.php');
+		//Buscando usuario por parametro
+	$user = new Usuario();
+	$user->loadbyId(6);
+	echo $user;
+	
 
 ?>
