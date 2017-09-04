@@ -117,8 +117,7 @@ class Usuario {
 			"idusuario"=>$this->getIdUsuario(),
 			"deslogin"=>$this->getDeslogin(),
 			"dessenha"=>$this->getDessenha(),
-			"dtcadastro"=>$this->getDtcadastro()
-			//"dtcadastro"=>$this->getDtcadastro()->format("d/m/Y H:i:s")
+			"dtcadastro"=>$this->getDtcadastro()->format("d/m/Y H:i:s")
 			));
 	
 	}
